@@ -1,7 +1,7 @@
 # Peptide E-Commerce Go-To-Market Strategy
 ## Two-Brand Launch: [Research Brand] + VitaRevive
 
-**Version:** 1.0 | **Created:** February 13, 2026 | **Owner:** Dawson (Founder)
+**Version:** 2.0 | **Updated:** February 13, 2026 | **Owner:** Dawson (Founder)
 
 ---
 
@@ -14,7 +14,26 @@ We are launching two peptide e-commerce brands simultaneously to capture both en
 
 **Timeline:** 8-week launch → scale through Month 6
 **Revenue Target:** $50K/mo by Month 3, $150K/mo by Month 6
-**Primary Supplier:** Novara Peptides (COGS $29-50/vial) | **Backup:** YourPeptideBrand
+
+### Fulfillment Model: 3PL via 3PLGuys.com
+- Bulk inventory ordered from supplier → shipped to 3PLGuys FDA-registered, temperature-controlled warehouse (near LA ports)
+- 3PLGuys handles pick/pack/ship to customers via their dedicated **Peptide Fulfillment** division
+- Shopify integration, batch/lot tracking, compliance documentation
+- Higher upfront inventory investment, but better shipping speed, QC, and multi-supplier flexibility
+
+### Suppliers (Top Picks — Quotes Pending)
+| Supplier | Strength | Status |
+|----------|----------|--------|
+| **Licensed Peptides Wholesale** | GMP-certified CA lab, white label, tiered pricing | 🔴 Contact for quote |
+| **Evolve Peptides** | 50+ peptides, broadest catalog, bulk wholesale | 🔴 Contact for quote |
+| **Peprion** | Best GLP-1 pricing ($0.21-0.77/mg) | 🔴 Contact for quote |
+| Novara Peptides | Backup — Zelle-only payment, drop-ship model | Backup |
+| YourPeptideBrand | Backup — turnkey white-label, drop-ship focused | Backup |
+
+### Dual-Brand Model: Same Catalog, Different Branding
+Both brands sell the **same product catalog** (unified SKUs, same vials from same supplier). The difference is labels and pricing:
+- **Research Brand:** Competitive pricing, clinical peptide names (Semaglutide, BPC-157, etc.)
+- **VitaRevive:** Premium pricing, consumer-friendly names (Sculpt, Restore, Glow, etc.)
 
 ---
 
@@ -23,7 +42,7 @@ We are launching two peptide e-commerce brands simultaneously to capture both en
 | Person | Role | Primary Responsibilities |
 |--------|------|------------------------|
 | **Dawson** | Founder/CEO | Final decisions, payment processing, legal, strategy |
-| **Riley Gasaway** | Partnerships/Supplier | Supplier relations, Novara contact, pricing negotiations, backup supplier vetting |
+| **Riley Gasaway** | Partnerships/Supplier | Supplier relations, pricing negotiations, 3PL coordination |
 | **Jake Arnold** | Marketing/Funnels | Website builds, landing pages, checkout flow, email funnels |
 | **Jason** | CMO | Ad strategy, content calendar, brand positioning, creative direction |
 | **Orion** | AI/Ops Support | Copywriting, research, automation, SOPs |
@@ -33,34 +52,51 @@ We are launching two peptide e-commerce brands simultaneously to capture both en
 
 ## Product & Pricing Matrix
 
-### Research Brand Pricing (Target: 70%+ margin pre-ad)
+### Unified SKU Catalog
 
-| Product | Size | COGS (Novara) | Competitor Price | Our Price | Margin |
-|---------|------|---------------|-----------------|-----------|--------|
-| Semaglutide | 5mg | ~$35 | $239-339 | $199 | 82% |
-| Tirzepatide | 10mg | ~$40 | $169-199 | $179 | 78% |
-| Retatrutide | 5mg | ~$45 | $199-279 | $219 | 79% |
-| BPC-157 | 5mg | ~$29 | $45-60 | $49 | 41%* |
-| NAD+ | 500mg | ~$35 | $75-89 | $79 | 56% |
-| Sermorelin | 5mg | ~$32 | $59-89 | $69 | 54% |
-| GHK-Cu | 50mg | ~$30 | $55-75 | $59 | 49% |
-| CJC-1295/Ipamorelin | Blend | ~$38 | $79-119 | $89 | 57% |
+Both brands sell the same 8 core peptides. COGS estimates below are **pre-quote** — actual pricing depends on which supplier wins.
+
+**COGS Estimates (Wholesale/Bulk — No Branding Surcharge)**
+
+| Product | Size | Est. COGS Range | Notes |
+|---------|------|-----------------|-------|
+| Semaglutide | 5mg | $5-25 | Peprion could be lowest; Licensed Peptides mid-range |
+| Tirzepatide | 10mg | $5-25 | Peprion excels here |
+| Retatrutide | 5mg | $10-30 | Fewer suppliers, may be higher |
+| BPC-157 | 5mg | $15-30 | Widely available |
+| NAD+ | 500mg | $15-30 | Check Evolve catalog |
+| Sermorelin | 5mg | $15-25 | Widely available |
+| GHK-Cu | 50mg | $15-25 | Widely available |
+| CJC-1295/Ipamorelin | Blend | $15-30 | Check availability as pre-blended |
+
+*Note: Peprion quotes $0.21-0.77/mg on GLP-1s — if accurate, Semaglutide 5mg could be as low as ~$1-4/vial at scale. Verify with actual quote.*
+
+### Research Brand Pricing (Target: 75%+ margin pre-ad)
+
+| Product | Our Price | Est. COGS | Est. Margin |
+|---------|-----------|-----------|-------------|
+| Semaglutide 5mg | $199 | ~$15 | 92% |
+| Tirzepatide 10mg | $179 | ~$15 | 92% |
+| Retatrutide 5mg | $219 | ~$20 | 91% |
+| BPC-157 5mg | $49 | ~$20 | 59% |
+| NAD+ 500mg | $79 | ~$20 | 75% |
+| Sermorelin 5mg | $69 | ~$18 | 74% |
+| GHK-Cu 50mg | $59 | ~$18 | 69% |
+| CJC-1295/Ipamorelin Blend | $89 | ~$20 | 78% |
 
 *BPC-157 is a traffic driver, not a margin play. Bundle it.*
 
-**Custom branding surcharge (Novara):** +40% COGS + $15/label. Factor into pricing.
+### VitaRevive Pricing (Premium positioning, 80%+ margin target on GLP-1s)
 
-### VitaRevive Pricing (Premium positioning, 75%+ margin target)
+| VitaRevive Name | Peptide | Price | Est. COGS | Est. Margin |
+|-----------------|---------|-------|-----------|-------------|
+| VitaRevive Sculpt | Semaglutide 5mg | $279 | ~$15 | 95% |
+| VitaRevive Sculpt Pro | Tirzepatide 10mg | $249 | ~$15 | 94% |
+| VitaRevive Restore | BPC-157 5mg | $69 | ~$20 | 71% |
+| VitaRevive Thrive | CJC/Ipa Blend | $119 | ~$20 | 83% |
+| VitaRevive Glow | GHK-Cu 50mg | $89 | ~$18 | 80% |
 
-| Product | Peptide | Price | COGS (branded) | Margin |
-|---------|---------|-------|----------------|--------|
-| VitaRevive Sculpt | Semaglutide 5mg | $279 | ~$64 | 77% |
-| VitaRevive Sculpt Pro | Tirzepatide 10mg | $249 | ~$71 | 72% |
-| VitaRevive Restore | BPC-157 5mg | $69 | ~$56 | 19%** |
-| VitaRevive Thrive | CJC/Ipa Blend | $119 | ~$68 | 43% |
-| VitaRevive Glow | GHK-Cu 50mg | $89 | ~$57 | 36% |
-
-**With Novara custom branding, lower-ticket items have compressed margins. Mitigation: negotiate volume pricing OR use YourPeptideBrand for VitaRevive-branded items where Novara margins are thin.
+*Without Novara's 40% markup + $15/label surcharge, VitaRevive margins are dramatically better. Custom labels printed separately and applied at 3PL.*
 
 ### Bundle Strategy (Margin Maximizer)
 - **Research Brand "Stack Packs":** BPC + GHK-Cu ($99, saves $9) — blended margin improves
@@ -78,38 +114,34 @@ We are launching two peptide e-commerce brands simultaneously to capture both en
 |------|-------|----------|--------|
 | **Finalize Research Brand name** — team vote on CorePeptides vs CaliberPeptides vs SovereignPeptides | Dawson + Jason | Feb 16 (Sun) | 🔴 |
 | **Secure domain** for Research Brand (.co) | Dawson | Feb 17 (Mon) | 🔴 |
-| **Riley: Complete Novara supplier agreement** — pricing tiers, MOQ, lead times, drop-ship terms, payment terms (Zelle risk mitigation: get written agreement/invoice before payment) | Riley | Feb 19 (Wed) | 🔴 |
-| **Riley: Get YourPeptideBrand quote** — pricing for white-label, turnaround, compliance support | Riley | Feb 19 (Wed) | 🔴 |
+| **Riley: Contact Licensed Peptides Wholesale** — request wholesale pricing sheet, white-label MOQ, lead times, bulk shipping to 3PL | Riley | Feb 19 (Wed) | 🔴 |
+| **Riley: Contact Evolve Peptides** — request wholesale quote for all 8 target peptides, white-label options, MOQ | Riley | Feb 19 (Wed) | 🔴 |
+| **Riley: Contact Peprion** — verify operational status, request quote for 50-100 vial MOQ on Sema/Tirz/Reta | Riley | Feb 19 (Wed) | 🔴 |
+| **Riley: Get YourPeptideBrand quote** — pricing for white-label bulk (not drop-ship), turnaround, compliance support | Riley | Feb 19 (Wed) | 🔴 |
+| **Dawson: Get 3PLGuys quote** — fill out Peptide Fulfillment form at 3plguys.com/peptides. Ask: pick/pack/ship pricing, storage rates, temp-controlled capabilities, Shopify integration, onboarding timeline, peptide client references | Dawson | Feb 19 (Wed) | 🔴 |
 | **Legal entity setup** — LLC formation (Wyoming or Delaware recommended for e-comm). EIN. Business bank account. | Dawson | Feb 20 (Thu) | 🔴 |
 | **Payment processor application** — Apply to 2-3 peptide-friendly processors (see Tech Stack section) | Dawson | Feb 20 (Thu) | 🔴 |
 | **Softriver: VitaRevive logo v1 delivery** | Softriver | Feb 21 (Fri) | 🔴 |
 | **Research Brand logo brief to Softriver** (or use text-only wordmark to move faster) | Jason + Softriver | Feb 18 (Tue) | 🔴 |
 | **Jake: Set up Shopify stores** — 2 stores, basic themes, custom domains connected | Jake | Feb 21 (Fri) | 🔴 |
 | **Jason: Competitive audit** — screenshot top 10 peptide sites, document pricing, positioning, ad angles | Jason | Feb 18 (Tue) | 🔴 |
-| **Orion: Draft product descriptions** — all 8 products, both brand voices | Orion | Feb 21 (Fri) | 🔴 |
+| **Orion: Draft product descriptions** — all 8 products, both brand voices (clinical for Research, consumer-friendly for VitaRevive) | Orion | Feb 21 (Fri) | 🔴 |
 | **Orion: Draft compliance copy** — disclaimers, terms of service, privacy policy, "research use only" language | Orion | Feb 21 (Fri) | 🔴 |
 | **Set up business email** — support@[researchbrand].co, hello@vitarevive.co | Jake | Feb 17 (Mon) | 🔴 |
 | **Social media accounts** — IG, TikTok, Twitter for both brands. Secure handles NOW. | Jason | Feb 14 (Fri) | 🔴 |
-| **Riley: Negotiate Novara custom branding pricing** — push for <30% markup or volume tiers | Riley | Feb 24 (Mon) | 🔴 |
-| **Dawson: Decide fulfillment model** — Novara drop-ship vs. self-fulfill vs. 3PL | Dawson | Feb 24 (Mon) | 🔴 |
+| **3PLGuys onboarding** — begin onboarding process once quote received (timeline TBD) | Dawson + Riley | Feb 27 (Thu) | 🔴 |
 
 ### Dependencies & Blockers
 - ❗ **Payment processor is the #1 blocker.** Apply Day 1. Approval can take 5-14 days for peptide merchants.
-- ❗ **Supplier agreement before any inventory commitment.** Written terms, not verbal.
+- ❗ **Supplier quotes needed before inventory commitment.** Compare Licensed Peptides, Evolve, and Peprion before ordering.
+- ❗ **3PLGuys quote needed to finalize unit economics.** Fulfillment cost per order affects margin calculations.
 - ❗ **Brand name must be finalized before design work begins** on Research Brand.
 - Logo and domain don't block Shopify setup (use placeholder).
 
-### Zelle Payment Risk Mitigation (Novara)
-1. Get itemized invoice via email before every payment
-2. Start with small test order ($500-1K) to verify fulfillment
-3. Document everything — screenshots of Zelle confirmations
-4. Negotiate partial payment terms (50% up front, 50% on ship)
-5. Have YourPeptideBrand ready as instant backup
-6. Long-term: push for ACH/wire capability
-
 ### KPIs for Phase 0
 - [ ] Both brand names + domains secured
-- [ ] Supplier agreements signed (at least 1)
+- [ ] Supplier quotes received (at least 2 of 3 new suppliers)
+- [ ] 3PLGuys quote received and onboarding started
 - [ ] Payment processor application submitted (approval pending OK)
 - [ ] LLC formed, EIN received
 - [ ] Both Shopify stores initialized
@@ -122,8 +154,9 @@ We are launching two peptide e-commerce brands simultaneously to capture both en
 | LLC formation (Wyoming) | $150 |
 | Shopify (2 stores, Basic plan) | $79/mo x2 = $158/mo |
 | Softriver (logo work) | TBD (existing contract) |
-| Test inventory order (Novara) | $1,000-2,000 |
-| **Total Phase 0** | **~$1,500-3,500** |
+| **Total Phase 0** | **~$500-1,000** |
+
+*Note: No test inventory in Phase 0 — bulk order happens in Phase 1 after supplier selection and 3PL onboarding.*
 
 ---
 
@@ -134,15 +167,17 @@ We are launching two peptide e-commerce brands simultaneously to capture both en
 
 | Task | Owner | Deadline |
 |------|-------|----------|
+| **Dawson: Select primary supplier(s)** — compare quotes from Licensed Peptides, Evolve, Peprion. May use multiple (e.g., Peprion for GLP-1s, Evolve for everything else). | Dawson + Riley | Mar 2 (Mon) |
+| **Riley: Place first bulk inventory order** — top 4 SKUs per brand (8 SKUs total, same vials). Ship to 3PLGuys warehouse. | Riley | Mar 4 (Wed) |
+| **Riley: Send label designs to 3PLGuys** — coordinate with Softriver on label files. 3PLGuys applies labels at warehouse. | Riley + Softriver | Mar 6 (Fri) |
 | **Jake: Research Brand site build** — homepage, shop, product pages, cart, checkout. Clean, dark theme, credibility-focused. | Jake | Mar 6 (Fri) |
 | **Jake: VitaRevive site build** — per Brand Assets doc. Warm cream/sage palette, Playfair + DM Sans, full UX per Section 6. | Jake | Mar 10 (Tue) |
 | **Jake: "Find Your Ritual" quiz** (VitaRevive) — 5-7 question quiz → product recommendation. Use Octane AI or built-in Shopify quiz app. | Jake | Mar 13 (Fri) |
 | **Jake: Email platform setup** — Klaviyo for both brands. Welcome series, abandoned cart, post-purchase flows. | Jake | Mar 6 (Fri) |
-| **Jason: Product photography direction** — lifestyle mock-ups (use AI-gen for launch, real shoot Month 2). Product shots needed from Novara or self-shot. | Jason | Mar 4 (Wed) |
+| **Jake: Connect Shopify to 3PLGuys** — ensure order routing and inventory sync working | Jake | Mar 10 (Tue) |
+| **Jason: Product photography direction** — lifestyle mock-ups (use AI-gen for launch, real shoot Month 2). Product shots from actual vials once inventory arrives. | Jason | Mar 4 (Wed) |
 | **Softriver: Final logos delivered** — all variations per VitaRevive brand doc. Research Brand logo final. | Softriver | Mar 4 (Wed) |
-| **Softriver: Packaging label designs** — for Novara custom branding. Both brands. | Softriver | Mar 10 (Tue) |
-| **Riley: Submit label files to Novara** — confirm print specs, turnaround time | Riley | Mar 11 (Wed) |
-| **Riley: Place first branded inventory order** — start with top 4 SKUs per brand | Riley | Mar 11 (Wed) |
+| **Softriver: Packaging label designs** — for both brands. Labels printed and sent to 3PLGuys for application. | Softriver | Mar 10 (Tue) |
 | **Orion: Write all email flows** — Welcome (5 emails), Abandoned Cart (3 emails), Post-Purchase (3 emails), Educational nurture (5 emails). Both brands. | Orion | Mar 10 (Tue) |
 | **Orion: Blog content** — 5 SEO articles per brand (see Content Strategy section) | Orion | Mar 13 (Fri) |
 | **Jason: Ad creative production** — 10 static ads + 5 video concepts per brand. UGC-style for VitaRevive, direct-response for Research Brand. | Jason | Mar 13 (Fri) |
@@ -154,7 +189,8 @@ We are launching two peptide e-commerce brands simultaneously to capture both en
 ### Dependencies
 - ❗ Payment processor approval blocks checkout testing
 - ❗ Logos must be final before packaging labels
-- ❗ Label files to Novara blocks branded inventory (2-3 week lead time)
+- ❗ Supplier order + shipping to 3PLGuys has lead time (estimate 1-2 weeks)
+- ❗ 3PLGuys Shopify integration must be live before launch
 - ❗ Product photos block site launch (use placeholder/mockup if needed)
 
 ### KPIs for Phase 1
@@ -163,18 +199,22 @@ We are launching two peptide e-commerce brands simultaneously to capture both en
 - [ ] Email flows built and tested (minimum: welcome + abandoned cart)
 - [ ] 10+ blog posts written and staged
 - [ ] Ad creative library: 20+ static, 10+ video concepts
-- [ ] Branded inventory ordered
+- [ ] Bulk inventory ordered and en route to 3PLGuys
+- [ ] 3PLGuys Shopify integration confirmed working
 
 ### Budget: Phase 1
 | Item | Cost |
 |------|------|
 | Shopify apps (Klaviyo, quiz, reviews) | ~$100/mo |
 | Shopify themes (premium x2) | $350 x2 = $700 |
-| Branded inventory order (8 SKUs, 25 units each) | ~$8,000-12,000 |
+| **Bulk inventory order (8 SKUs, 25-50 units each)** | ~$3,000-8,000* |
+| Custom label printing (2 brands x 8 SKUs) | ~$500-1,000 |
 | AI product photography / mockups | $200-500 |
 | Legal review | $500-1,500 |
 | Softriver (packaging design) | TBD |
-| **Total Phase 1** | **~$10,000-15,000** |
+| **Total Phase 1** | **~$5,000-12,000** |
+
+*Inventory cost depends heavily on supplier quotes. Peprion GLP-1 pricing could make this much lower. Without Novara's 40% + $15/label surcharge, COGS drops significantly.*
 
 ---
 
@@ -185,13 +225,13 @@ We are launching two peptide e-commerce brands simultaneously to capture both en
 
 | Task | Owner | Deadline |
 |------|-------|----------|
+| **Confirm inventory received at 3PLGuys** — QC check, verify labels applied correctly, test fulfillment flow | Riley + Dawson | Mar 13 (Fri) |
 | **Jake: Remove passwords, sites go live** | Jake | Mar 13 (Fri) |
 | **Beta testing** — 10-20 hand-picked customers per brand. Friends, family, existing contacts. Discount code (30% off). Collect feedback. | Dawson + Team | Mar 13-20 |
 | **Jason: Influencer outreach begins** — 50 DMs to micro-influencers (VitaRevive). 20 DMs to fitness/biohacker creators (Research Brand). | Jason | Mar 16 (Mon) |
 | **Jason: Seed 10 free product kits** to influencers with highest engagement rates | Jason | Mar 20 (Fri) |
 | **Jake: Email list building** — pop-up on both sites. Lead magnet: "Peptide Guide" (Research) / "Find Your Ritual" quiz (VitaRevive) | Jake | Mar 13 (Fri) |
 | **Jason: Organic social begins** — 5 posts/week per brand. Follow content pillars from Brand Assets. | Jason | Mar 13 (ongoing) |
-| **Riley: Confirm branded inventory received** — QC check, photograph actual products | Riley | Mar 20 (Fri) |
 | **Jake: Install analytics** — GA4, Meta Pixel, TikTok Pixel, Hotjar (heatmaps) on both sites | Jake | Mar 13 (Fri) |
 | **Orion: Create affiliate program** — GoAffPro or Shopify Collabs. 15% commission. Landing page + signup flow. | Orion | Mar 18 (Wed) |
 | **Jason: Run $500 test ad spend** — Meta only. 3 audiences x 3 creatives per brand. Objective: traffic + pixel data. | Jason | Mar 20-27 |
@@ -201,6 +241,7 @@ We are launching two peptide e-commerce brands simultaneously to capture both en
 
 ### KPIs for Phase 2
 - [ ] 50+ orders across both brands (beta)
+- [ ] 3PLGuys fulfillment working smoothly (orders shipping within 24h)
 - [ ] Email list: 500+ subscribers per brand
 - [ ] 5+ verified reviews per brand
 - [ ] Site conversion rate benchmarked (target: >1.5%)
@@ -215,7 +256,8 @@ We are launching two peptide e-commerce brands simultaneously to capture both en
 | Test ad spend (Meta) | $500 |
 | Beta customer discounts (lost margin) | ~$300-500 |
 | Support tool (Gorgias/Tidio) | $50-100/mo |
-| **Total Phase 2** | **~$1,500-2,000** |
+| 3PLGuys fulfillment fees (est. ~50 orders) | ~$200-500 |
+| **Total Phase 2** | **~$1,500-2,500** |
 
 ---
 
@@ -234,8 +276,8 @@ We are launching two peptide e-commerce brands simultaneously to capture both en
 | **Jason: Influencer content goes live** — coordinate posting schedule with seeded influencers | Jason | Mar 27-Apr 10 |
 | **Orion: SEO content push** — publish all staged blog posts. 2 new posts/week ongoing. | Orion | Mar 27 (ongoing) |
 | **Jake: Launch SMS marketing** — Postscript or Klaviyo SMS. Welcome offer + flash sale capability. | Jake | Mar 30 (Mon) |
-| **Dawson: Review first-week data** — revenue, ROAS, conversion rate, AOV, customer feedback | Dawson | Apr 3 (Fri) |
-| **Riley: Reorder inventory** — based on sell-through velocity. Don't get caught out of stock on winners. | Riley | Apr 3 (Fri) |
+| **Dawson: Review first-week data** — revenue, ROAS, conversion rate, AOV, customer feedback, 3PL fulfillment speed | Dawson | Apr 3 (Fri) |
+| **Riley: Reorder inventory** — based on sell-through velocity. Ship to 3PLGuys. Don't get caught out of stock on winners. | Riley | Apr 3 (Fri) |
 | **Jason: Launch retargeting campaigns** — site visitors, cart abandoners, email engagers. $50/day combined. | Jason | Apr 3 (Fri) |
 | **Jake: Implement upsell/cross-sell** — post-purchase upsell (ReConvert app), in-cart recommendations | Jake | Apr 1 (Wed) |
 
@@ -247,6 +289,7 @@ We are launching two peptide e-commerce brands simultaneously to capture both en
 - [ ] AOV: $120+ (Research), $180+ (VitaRevive)
 - [ ] Conversion rate: >2%
 - [ ] Return/refund rate: <5%
+- [ ] 3PLGuys shipping SLA met (orders shipped within 24h)
 
 ### Budget: Phase 3
 | Item | Cost/Month |
@@ -255,9 +298,10 @@ We are launching two peptide e-commerce brands simultaneously to capture both en
 | TikTok Ads | $3,000/mo ($100/day) |
 | Google Ads | $3,000/mo ($100/day) |
 | Retargeting | $1,500/mo ($50/day) |
-| Inventory reorder | $5,000-10,000 |
+| Inventory reorder | $3,000-6,000 |
+| 3PLGuys fulfillment fees | ~$500-1,500 |
 | SMS platform | $50-100/mo |
-| **Total Phase 3** | **~$19,000-24,000/mo** |
+| **Total Phase 3** | **~$17,000-21,000/mo** |
 
 ---
 
@@ -274,7 +318,8 @@ We are launching two peptide e-commerce brands simultaneously to capture both en
 | First real product photo shoot (VitaRevive) | Jason + Softriver |
 | Launch affiliate program publicly — recruit 50 affiliates | Jason + Orion |
 | Add 2 new SKUs (Retatrutide priority) | Riley |
-| Negotiate volume pricing with Novara (hitting 100+ units/mo) | Riley |
+| Negotiate volume pricing with primary supplier(s) (hitting 100+ units/mo) | Riley |
+| Evaluate 3PLGuys performance — shipping speed, accuracy, customer complaints | Dawson |
 
 ### Month 4 (May 10 – Jun 10)
 
@@ -285,7 +330,7 @@ We are launching two peptide e-commerce brands simultaneously to capture both en
 | VitaRevive community launch (private FB group or Circle) | Jason |
 | Implement loyalty/rewards program (Smile.io) | Jake |
 | Explore telehealth partnership for prescription peptide pathway | Dawson |
-| Second supplier onboarded (diversify from Novara) | Riley |
+| Second supplier onboarded (diversify supply chain) | Riley |
 
 ### Month 5-6 (Jun 10 – Aug 10)
 
@@ -312,13 +357,16 @@ We are launching two peptide e-commerce brands simultaneously to capture both en
 
 ### Unit Economics Target (Month 6 Steady State)
 - **AOV:** $155
-- **COGS:** ~$40 (26%)
-- **Shipping:** ~$8 (5%)
+- **COGS:** ~$20 (13%) ← improved with wholesale bulk pricing
+- **3PL Fulfillment:** ~$5-8 (3-5%) ← 3PLGuys pick/pack/ship
+- **Shipping:** ~$6-8 (4-5%)
 - **Ad cost per order:** ~$25 (16%)
 - **Platform/processing fees:** ~$8 (5%)
-- **Gross contribution:** ~$74 (48%)
+- **Gross contribution:** ~$89-91 (57-59%)
 - **Fixed overhead:** ~$15K/mo
-- **Net margin at $150K/mo revenue:** ~38%
+- **Net margin at $150K/mo revenue:** ~47%
+
+*Significant margin improvement vs. old Novara model (was ~38% net). Bulk wholesale pricing + no custom branding surcharge = ~$20-30 lower COGS per unit.*
 
 ---
 
@@ -457,6 +505,7 @@ We are launching two peptide e-commerce brands simultaneously to capture both en
 - [ ] No disease claims on any marketing material
 - [ ] FDA disclaimer on all product pages and marketing
 - [ ] No "FDA approved" language (even for semaglutide — YOUR product isn't FDA approved)
+- [ ] 3PLGuys FDA-registered facility maintains compliance documentation
 
 ### FTC Compliance
 - [ ] All influencer partnerships include proper disclosure (#ad, #sponsored)
@@ -494,9 +543,15 @@ VitaRevive's warm, wellness-forward branding is CLOSE to implying human consumpt
 ## TECH STACK
 
 ### E-Commerce Platform: Shopify (Basic → Plus)
-- **Why Shopify:** Fast to launch, app ecosystem, handles PCI, scales well
-- **Why not custom/GitHub Pages:** No checkout, no inventory management, no payment processing
+- **Why Shopify:** Fast to launch, app ecosystem, handles PCI, scales well, 3PLGuys has native integration
 - **Migration path:** Shopify Basic ($39/mo) → Shopify ($105/mo) at $10K/mo → Shopify Plus ($2,300/mo) at $50K+/mo
+
+### 3PL: 3PLGuys (Peptide Fulfillment Division)
+- FDA-registered, temperature-controlled warehouse
+- 100,000+ sq ft facility, 13 miles from LA/Long Beach ports
+- Shopify + WooCommerce integration
+- Batch/lot tracking, compliance documentation
+- **Status:** Quote pending — fill out peptide form at 3plguys.com/peptides
 
 ### Payment Processors (Peptide-Friendly)
 Apply to ALL THREE simultaneously — peptide merchants get denied frequently:
@@ -544,7 +599,7 @@ Apply to ALL THREE simultaneously — peptide merchants get denied frequently:
 
 **Key differentiators vs. competitors:**
 1. **Price:** 10-20% below premium brands (Peptide Sciences, Paradigm Peptides) while maintaining quality
-2. **Speed:** Same-day or next-day shipping on in-stock items
+2. **Speed:** Fast shipping via 3PLGuys (LA-based, near ports)
 3. **Transparency:** COAs (Certificates of Analysis) on every product page
 4. **No minimum order** — competitors sometimes have $100+ minimums
 5. **Bundle deals** that actually save money
@@ -569,26 +624,31 @@ Apply to ALL THREE simultaneously — peptide merchants get denied frequently:
 | Risk | Likelihood | Impact | Mitigation |
 |------|-----------|--------|------------|
 | Payment processor denial | HIGH | CRITICAL | Apply to 3+ simultaneously. Crypto backup. |
-| Novara Zelle scam/non-delivery | MEDIUM | HIGH | Small test order first. Written invoices. YourPeptideBrand backup. |
-| FDA enforcement action | LOW | CRITICAL | "Research use only." Legal review. No health claims. |
-| Supplier quality issues | MEDIUM | HIGH | Third-party testing on first batch. Multiple suppliers. |
+| **3PLGuys onboarding delays** | MEDIUM | HIGH | Start onboarding ASAP. Have backup plan (self-fulfill from home for first orders if needed). Get timeline commitment in writing. |
+| **3PLGuys quality issues (lost inventory, billing disputes)** | MEDIUM | MEDIUM | Start with small inventory shipment. Document everything. Monitor Trustpilot reviews. Request peptide client references. |
+| FDA enforcement action | LOW | CRITICAL | "Research use only." Legal review. No health claims. 3PLGuys FDA-registered facility helps. |
+| Supplier quality issues | MEDIUM | HIGH | Third-party testing on first batch. Multiple suppliers (Licensed Peptides + Evolve + Peprion). COAs verified. |
+| **Supplier lead time / stockout** | MEDIUM | HIGH | Use multiple suppliers. Reorder at 50% inventory level. Track velocity weekly. Keep safety stock at 3PLGuys. |
 | Ad account bans (peptide content) | HIGH | HIGH | Multiple ad accounts. Compliant creative. Organic/SEO as backup channel. |
 | Chargebacks spike | MEDIUM | HIGH | Clear descriptions, fast support, generous refund policy. |
 | Competitor price war | MEDIUM | MEDIUM | Differentiate on brand/experience (especially VitaRevive). Don't race to bottom. |
-| Inventory stockout on winners | MEDIUM | HIGH | Reorder at 50% inventory level. Track velocity weekly. |
 | VitaRevive compliance gray area | HIGH | HIGH | Legal counsel by Week 3. Explore telehealth model. |
+| **Upfront inventory capital risk** | MEDIUM | MEDIUM | Start with top 4 SKUs only. Scale inventory as sales validate demand. Don't over-order niche peptides. |
 
 ---
 
 ## IMMEDIATE NEXT ACTIONS (Today, Feb 13)
 
 1. **Dawson:** Vote on Research Brand name. Pick one by Sunday Feb 16.
-2. **Jason:** Secure ALL social media handles for both brands TODAY.
-3. **Riley:** Send follow-up to Novara — request written pricing sheet, MOQ, lead times, custom branding specs.
-4. **Riley:** Submit contact form to YourPeptideBrand for backup pricing.
-5. **Jake:** Create both Shopify stores (basic setup, connect domains when ready).
-6. **Dawson:** Start LLC paperwork (online, takes 10 minutes for Wyoming filing).
-7. **Dawson:** Begin payment processor applications — Durango first.
+2. **Dawson:** Fill out 3PLGuys Peptide Fulfillment form at 3plguys.com/peptides — get quote ASAP.
+3. **Jason:** Secure ALL social media handles for both brands TODAY.
+4. **Riley:** Contact Licensed Peptides Wholesale — request wholesale pricing, white-label options, bulk shipping to 3PL.
+5. **Riley:** Contact Evolve Peptides — request wholesale quote for all 8 target peptides.
+6. **Riley:** Contact Peprion — verify they're operational, request quote for GLP-1s (Sema/Tirz/Reta).
+7. **Riley:** Submit contact form to YourPeptideBrand for backup pricing.
+8. **Jake:** Create both Shopify stores (basic setup, connect domains when ready).
+9. **Dawson:** Start LLC paperwork (online, takes 10 minutes for Wyoming filing).
+10. **Dawson:** Begin payment processor applications — Durango first.
 
 ---
 
@@ -599,15 +659,17 @@ Apply to ALL THREE simultaneously — peptide merchants get denied frequently:
 | **Feb 14** | Social handles secured |
 | **Feb 16** | Research Brand name finalized |
 | **Feb 17** | Domains purchased, email set up |
-| **Feb 19** | Supplier agreements (Novara + YourPeptideBrand quotes) |
+| **Feb 19** | Supplier quotes requested (Licensed Peptides, Evolve, Peprion) + 3PLGuys quote |
 | **Feb 20** | LLC formed, payment processor apps submitted |
 | **Feb 21** | Shopify stores initialized, VitaRevive logo v1 |
+| **Feb 24** | 3PLGuys quote received, onboarding begins |
 | **Feb 27** | **PHASE 1 STARTS** — Build mode |
+| **Mar 2** | Primary supplier(s) selected, bulk order placed |
 | **Mar 4** | Logos finalized, payment processor confirmed |
 | **Mar 6** | Research Brand site built, legal review complete |
-| **Mar 10** | VitaRevive site built, packaging labels designed, email flows live |
-| **Mar 13** | **PHASE 2 STARTS** — Soft launch, sites go live |
-| **Mar 20** | Beta orders in, influencer outreach, test ad spend begins |
+| **Mar 10** | VitaRevive site built, labels designed, email flows live, Shopify↔3PLGuys connected |
+| **Mar 13** | **PHASE 2 STARTS** — Inventory at 3PLGuys, sites go live, soft launch |
+| **Mar 20** | Beta orders fulfilled via 3PLGuys, influencer outreach, test ad spend begins |
 | **Mar 27** | **PHASE 3 STARTS** — Full launch, paid ads scale |
 | **Apr 3** | First week data review, inventory reorder |
 | **Apr 10** | **PHASE 4 STARTS** — Scale mode |
@@ -618,3 +680,6 @@ Apply to ALL THREE simultaneously — peptide merchants get denied frequently:
 ---
 
 *This is a living document. Update weekly. Dawson owns final sign-off on all decisions. No task is done until it's verified by the owner. Move fast, stay compliant, make money.*
+
+**Changelog:**
+- **v2.0 (Feb 13, 2026):** Major update — switched from Novara drop-ship to 3PL model via 3PLGuys. Expanded supplier options (Licensed Peptides Wholesale, Evolve Peptides, Peprion). Unified SKU catalog across both brands. Updated margins removing Novara's 40% + $15/label surcharge. Updated Phase 0 tasks, budget estimates, and risk register.
